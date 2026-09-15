@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hibernate
+
+  jpa:
+    properties:
+      hibernate:
+        generate_statistics: true
+        format_sql: true
+
+    show-sql: true
